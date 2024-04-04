@@ -131,10 +131,15 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX - The two color variable are mixed up
+//Should be: colorOne = 'blue, colorTwo = 'red'
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+//FIX - only colorOne has been set to 'purple', when it should be colorTwo as well
+//Should be colorOne = colorTwo = 'purple'; this can be checked by console.log(colorOne, colorTwo)
 if (mix === true) {
   colorOne = 'purple';
 }
