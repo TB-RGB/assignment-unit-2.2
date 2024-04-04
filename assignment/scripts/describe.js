@@ -45,9 +45,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We declare a variable called secret, leaving it undefined. We then declare a variable called code, and set it to 123 as a number.
+// We check if the value of code is the number 123; this is true. secret is set to 'super'. code is multiplied by 2. code is now 246.
+// We console.log 'super'.
 //
 
 //CODE
