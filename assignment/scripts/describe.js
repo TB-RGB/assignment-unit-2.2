@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We declare a variable called name and set it to the string 'Dane'
+// We check if name is 'Mary'.
+// This is false, so we console.log 'How do you do?'
 //
 
 //CODE
