@@ -140,10 +140,13 @@ let mix = true;
 
 //FIX - only colorOne has been set to 'purple', when it should be colorTwo as well
 //Should be colorOne = colorTwo = 'purple'; this can be checked by console.log(colorOne, colorTwo)
+
 if (mix === true) {
   colorOne = 'purple';
 }
 */
+
+
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -153,6 +156,7 @@ if (mix === true) {
 //FIX - this code is functional, but does not match the instruction.
 //This code is checking if temp is greater than 39 , OR, if time is greater than or equal to 4
 //It should be (temp > 39 && time >= 4) to satisfy the AND in the instructions.
+
 let temp = 40;
 const time = 4;
 
@@ -161,6 +165,8 @@ if (temp > 39 || time >= 4) {
 }
 */
 
+
+
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
@@ -168,6 +174,11 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+//FIX - Instructions ask to check if age is greater than or equal to minAge, which would be written as:
+//if(age >= minAge); the resulting condition is equal in both cases, but this is more exactly what was stated in the instructions.
+//As it is written, this will console.log 'no entry'.
+//console.log('enter') should come after the condition if(age >= minAge), and console.log('no entry') should be within the else block.
 
 if(minAge <= age) {
   console.log('no entry');
