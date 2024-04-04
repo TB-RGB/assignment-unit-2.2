@@ -47,7 +47,7 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 // We declare a variable called secret, leaving it undefined. We then declare a variable called code, and set it to 123 as a number.
 // We check if the value of code is the number 123; this is true. secret is set to 'super'. code is multiplied by 2. code is now 246.
-// We console.log 'super'.
+// We check if code is greater than 250, which is false. We console.log 'super'.
 //
 
 //CODE
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare a variable called isStudent; its value is true, a boolean. We declare a variable called age, and set it to 34 as a number.
+// We declarea variable called zip, and set it to 55407 as a number.
+// We check if isStudent is true, and, if zip is greater than 80000. This is false.
+// We check if isStudent is false, or, if age is less than 30. This is false.
+// We check if isStudent is true, which it is, so we console.log 'Welcome to Prime!'.
 
 //CODE
 /*
