@@ -150,6 +150,9 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+//FIX - this code is functional, but does not match the instruction.
+//This code is checking if temp is greater than 39 , OR, if time is greater than or equal to 4
+//It should be (temp > 39 && time >= 4) to satisfy the AND in the instructions.
 let temp = 40;
 const time = 4;
 
